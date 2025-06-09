@@ -20,7 +20,7 @@ header {
 
 .skip-link {
   position: absolute;
-  right: -9999px;
+  top: -45px;
   background: #000;
   color: #fff;
   padding: 7px 12px;
@@ -34,7 +34,8 @@ header {
 
 .skip-link:focus {
   position: absolute;
-  right: 100px;
+  right: 120px;
+  top: 25px;
   background: #000;
   color: #fff;
   padding: 7px 12px;
