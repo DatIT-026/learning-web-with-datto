@@ -103,8 +103,10 @@
       <a href="../index.html#main-content" class="back-link">&larr; Back to Fruits Hub</a>
 
     <footer>
-      <p>© 2025 Fruits Hub | Powered by <a href="https://datit-026.github.io/dattos-archive/about/">FireHelper Team</a></p>
+      <p>© <span id='current-year'></span> Fruits Hub | Powered by <a href="https://datit-026.github.io/dattos-archive/about/">FireHelper Team</a></p>
     </footer>
   </div>
+
+  <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
